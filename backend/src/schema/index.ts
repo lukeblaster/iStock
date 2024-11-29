@@ -24,6 +24,14 @@ export const resolvers = {
                 ],
                 include: Equipment
             })
+        },
+        dataDashboard: async () => {
+            const equipmentQuantity = await Equipment.count()
+            const movimentationQuantity = await Movimentation.count()
+
+            const data = { equipmentQuantity: equipmentQuantity, movimentationQuantity: movimentationQuantity }
+
+            return data
         }
     },
     Movimentation: {
@@ -119,6 +127,11 @@ export const typeDefs = `#graphql
         quantityInStock: Int
     }
 
+    type DataDashboard {
+        movimentationQuantity: Int
+        equipmentQuantity: Int
+    }
+
     type Equipment {
         id: Int
         name: String
@@ -136,6 +149,7 @@ export const typeDefs = `#graphql
     type Query {
         equipment: [Equipment]
         movimentation: [Movimentation]
+        dataDashboard: DataDashboard
     }
 
     type Mutation {

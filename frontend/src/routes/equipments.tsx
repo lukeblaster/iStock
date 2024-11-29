@@ -1,7 +1,7 @@
 import { DataTable } from "@/components/tables/data-table"
 import { equipmentColumns } from "@/components/columns/equipment-columns"
 import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
-import { Button } from "@/components/ui/button" 
+import { Button } from "@/components/ui/button"
 import { AddEquipmentModal } from "@/components/modal/add-equipment-modal"
 import { Plus } from "lucide-react"
 import { gql, useQuery } from "@apollo/client"
@@ -43,8 +43,8 @@ function DialogEquipment() {
 export function Equipments() {
     const { loading, error, data } = useQuery(GET_EQUIPMENTS);
 
-    if(loading) return <p>Carregando... </p>;
-    if(error) return <p>Erro: {error.message}</p>;
+    if (loading) return <p>Carregando... </p>;
+    if (error) return <p>Erro: {error.message}</p>;
 
     return (
         <div className="flex flex-col h-full">
