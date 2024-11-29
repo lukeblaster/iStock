@@ -21,14 +21,14 @@ const items = [
     icon: Home,
   },
   {
-    title: "Movimentações",
-    url: "movimentations",
-    icon: ArrowLeftRight,
-  },
-  {
     title: "Equipamentos",
     url: "equipments",
     icon: Wrench,
+  },
+  {
+    title: "Movimentações",
+    url: "movimentations",
+    icon: ArrowLeftRight,
   },
   {
     title: "Configurações",
