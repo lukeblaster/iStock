@@ -12,6 +12,7 @@ O iStock é um software para gerenciamento de estoque de equipamentos (ou outros
  - [React Router](https://reactrouter.com/en/main)
  - [React Hook Form](https://www.react-hook-form.com/)
 
+## 📸 Imagens do Projeto
 ### Página Inicial
 
 ![tela-home](https://github.com/user-attachments/assets/8afd2755-5e38-4788-b0a5-f321d6d72f6e)
