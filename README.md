@@ -1,8 +1,22 @@
 
 ## 📋 Descrição do Projeto
-O iStock é um projeto criado para a prática das tecnologias que você vai ver mais abaixo. A criação da aplicação ajudou bastante a entender conceitos base para criação de API GraphQL e o uso do ORM Sequelize.
+O iStock é um software para gerenciamento de estoque de equipamentos (ou outros produtos) para empresas de pequeno porte. Ele permite que você cadastre equipamentos e realize movimentações de entrada e saída para controlar a quantidade em estoque.
 
-O processo de aprendizado foi muito legal e benéfico para a minha carreira.
+### Página Inicial
+
+![tela-home](https://github.com/user-attachments/assets/8afd2755-5e38-4788-b0a5-f321d6d72f6e)
+
+
+### Equipamentos
+
+![tela-equipamentos](https://github.com/user-attachments/assets/1146c162-22e3-4996-9df9-ccc2dabb5b6d)
+
+
+### Movimentações
+
+![tela-movimentacoes](https://github.com/user-attachments/assets/bd9214c4-349c-4c5e-aac0-a5a25bf000a5)
+
+
 
 ## 🛠️ Tecnologias utilizadas
  - [React](https://react.dev/)
